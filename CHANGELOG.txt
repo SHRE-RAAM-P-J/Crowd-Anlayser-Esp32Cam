@@ -1,0 +1,9 @@
+# Changelog — Supermarket Crowd Analyzer
+
+v1.0 — Initial Release (January 2026)
+- Single-file app.py backend created
+- YOLOv8 detection integrated
+- Heatmap logic added
+- ESP32-CAM support
+- Dashboard UI with templates + static
+- Documentation added
