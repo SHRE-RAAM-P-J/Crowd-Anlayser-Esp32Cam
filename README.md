@@ -128,7 +128,7 @@ Crowd-Anlayser-Esp32Cam/
 
 ### Heatmap Detection
 
-![HeatMap Image](screenshots/Dashboardimage.png)
+![HeatMap Image](screenshots/img2.png)
 
 ---
 
