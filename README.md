@@ -124,19 +124,11 @@ Crowd-Anlayser-Esp32Cam/
 
 ![DashBoardImg](screenshots/Dashboardimage.png)
 
-```md
-![Dashboard](screenshots/YOUR_IMAGE_NAME.png)
-```
-
 ---
 
 ### Heatmap Detection
 
-![HeatMapImage](image.png)
-
-```md
-![Heatmap](screenshots/YOUR_IMAGE_NAME.png)
-```
+![HeatMap Image](screenshots/Dashboardimage.png)
 
 ---
 
@@ -144,19 +136,11 @@ Crowd-Anlayser-Esp32Cam/
 
 ![SetUp Image](Images/Setup_Image.jpeg)
 
-```md
-![ESP32 Setup](screenshots/YOUR_IMAGE_NAME.png)
-```
-
 ---
 
 ## Demo Video
 
 https://www.youtube.com/watch?v=WpYCNDZI0R0
-
-```text
-Demo Video Link: ____________________________
-```
 
 ---
 
