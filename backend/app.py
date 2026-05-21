@@ -13,7 +13,7 @@ HIGH_CROWD_FRAME_THRESHOLD = 15   # frames for alert
 app = Flask(__name__)
 
 # Load YOLO model
-model = YOLO("yolov8n.pt")
+model = YOLO("../models/yolov8n.pt")
 
 # Shared frame (latest from ESP32)
 latest_frame = None
@@ -21,7 +21,7 @@ lock = threading.Lock()
 
 high_crowd_frames = 0
 
-
+ 
 # ---------------- RECEIVE IMAGE ----------------
 @app.route("/upload", methods=["POST"])
 def upload():
@@ -174,15 +174,7 @@ def generate_frames():
 # ---------------- ROUTES ----------------
 @app.route("/")
 def index():
-    return """
-    <html>
-    <head><title>Crowd Analyzer</title></head>
-    <body style="text-align:center; background:#111; color:white;">
-        <h1> Crowd Analyzer Dashboard </h1>
-        <img src="/video" width="800">
-    </body>
-    </html>
-    """
+    return render_template("website.html")
 
 
 @app.route("/video")
@@ -201,6 +193,6 @@ if __name__ == "__main__":
 
     app.run(
         host="0.0.0.0",
-        port=5000,
+        port=5001,
         threaded=True
     )
